@@ -1,0 +1,67 @@
+.masonry-container {
+  column-count: 3;
+  column-gap: 24px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: var(--glass);
+}
+
+.masonry-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+h4 {
+  margin: 1rem;
+}
+
+.slide-counter {
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--glass);
+  backdrop-filter: blur(4px);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.slideshow-card:hover .nav-btn {
+  opacity: 1;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.prev { left: 12px; }
+.next { right: 12px; }
+
+@media (max-width: 900px) { .masonry-container { column-count: 2; } }
+@media (max-width: 500px) { .masonry-container { column-count: 1; } }

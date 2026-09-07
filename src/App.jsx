@@ -1,4 +1,10 @@
 import { useState } from 'react'
+
+import { GroupedMasonry } from './components/GroupedMasonry';
+import { MasonryGallery } from './components/MasonryGallery';
+
+import { photoGroups } from './data/photos';
+
 import "./App.css";
 
 function App() {
@@ -15,7 +21,7 @@ function App() {
 
       <div className="hero">
           <img
-            src={`${import.meta.env.BASE_URL}/photos/landscape/sandpiper-001.jpeg`}
+            src={`${import.meta.env.BASE_URL}/photos/fauna/willet-003.jpeg`}
             alt="Featured photography"
           />
       </div>
@@ -30,14 +36,11 @@ function App() {
 
         <div className='glass'>
           <section id="work" className="work">
-            <p>Gallery</p>
-            <h2>Recent photographs</h2>
-            <div className="gallery">
-              <img src={`${import.meta.env.BASE_URL}/photos/landscape/egret-001.jpeg`} alt="Great Egret" />
-              <img src={`${import.meta.env.BASE_URL}/photos/landscape/black-widow-001.jpeg`} alt="Southern Black Widow" />
-              <img src={`${import.meta.env.BASE_URL}/photos/landscape/crepe-myrtle-001.jpeg`} alt="Crepe Myrtle" />
-              
-            </div>
+            <h1>Gallery</h1>
+            
+            <section id='flora' className='category'>
+              <MasonryGallery groups={photoGroups} />
+            </section>
           </section>
           <section id="about" className="about">
             <h2>About</h2>
