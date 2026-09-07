@@ -24,7 +24,13 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
     ],
   },
-
+  "Pond Slider": {
+    scientificName: "Trachemys scripta",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-002.jpeg` },
+    ],
+  },
   "Willet": {
     scientificName: "Tringa semipalmata",
     photos: [
@@ -33,7 +39,6 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-003.jpeg` },
     ],
   },
-
   "Nags Head, North Carolina": {
     scientificName: null,
     photos: [
@@ -42,15 +47,6 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-003.jpeg` },
     ],
   },
-
-  "Pond Slider": {
-    scientificName: "Trachemys scripta",
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-001.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-002.jpeg` },
-    ],
-  },
-
   "House Finch": {
     scientificName: "Haemorhous mexicanus",
     photos: [
@@ -59,7 +55,18 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-003.jpeg` },
     ],
   },
-
+  "Common Blue Damselfly": {
+    scientificName: "Enallagma cyathigerum",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
+    ],
+  },
+  "Crepe Myrtle": {
+    scientificName: "Lagerstroemia indica",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-001.jpeg` },
+    ],
+  },
   "Orchard Orbweaver": {
     scientificName: "Leucauge venusta",
     photos: [
@@ -73,4 +80,5 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
     ],
   },
+  
 };

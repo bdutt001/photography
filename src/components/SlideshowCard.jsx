@@ -54,9 +54,11 @@ export const SlideshowCard = ({
         </p>
       )}
 
-      <p className="slide-counter">
-        {currentIndex + 1} / {photos.length}
-      </p>
+      {(photos.length > 1) && (
+        <p className="slide-counter">
+          {currentIndex + 1} / {photos.length}
+        </p>
+      )}
     </div>
   );
 };
