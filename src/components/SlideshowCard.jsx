@@ -48,11 +48,13 @@ export const SlideshowCard = ({
 
       <h4>{animalName}</h4>
 
-      {scientificName && (
-        <p className="scientific-name">
-          <em>{scientificName}</em>
-        </p>
-      )}
+      <div className=''>
+        {scientificName && (
+          <p className="scientific-name">
+            <em>{scientificName}</em>
+          </p>
+        )}
+      </div>
 
       {(photos.length > 1) && (
         <p className="slide-counter">

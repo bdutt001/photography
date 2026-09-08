@@ -29,8 +29,8 @@ function App() {
       <main>
         <section className="hero-content">
           <div className="hero-text">
-            <h2>Photography <br/> Portfolio</h2>
-            <h3>Benjamin Dutton</h3>
+            <h2>Benjamin Dutton</h2>
+            <h3>Photography</h3>
           </div>
         </section>
 
@@ -45,7 +45,7 @@ function App() {
           <section id="about" className="about">
             <h2>About</h2>
             <p>
-              I'm a photographer
+              I'm a hobbyist photographer based in Chesapeake, Virginia.
             </p>
           </section>
           <section id="contact" className="contact">
