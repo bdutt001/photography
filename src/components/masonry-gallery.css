@@ -28,6 +28,10 @@
   margin-bottom: 2rem;
 }
 
+.subtitle {
+  opacity: .8;
+}
+
 .slide-counter {
   position: absolute;
   top: 0%;

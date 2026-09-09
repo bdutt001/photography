@@ -11,6 +11,8 @@ export const MasonryGallery = ({ groups }) => {
           animalName={animalName}
           scientificName={data.scientificName}
           location={data.location}
+          camera={data.camera}
+          date={data.date}
           photos={data.photos} 
         />
       ))}

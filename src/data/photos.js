@@ -2,6 +2,8 @@ export const photoGroups = {
   "Great Egret": {
     scientificName: "Ardea alba",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 20, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-002.jpeg` },
@@ -12,6 +14,8 @@ export const photoGroups = {
   "Lake Lawson": {
     scientificName: null,
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 25, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/landscape/forest-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/landscape/web-001.jpeg` },
@@ -22,6 +26,8 @@ export const photoGroups = {
   "Eastern Gray Squirrel": {
     scientificName: "Sciurus carolinensis",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 20, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
@@ -30,6 +36,8 @@ export const photoGroups = {
   "Pond Slider": {
     scientificName: "Trachemys scripta",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 20, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-002.jpeg` },
@@ -38,15 +46,19 @@ export const photoGroups = {
   "Willet": {
     scientificName: "Tringa semipalmata",
     location: "Nags Head, North Carolina",
+    camera: "Nikon D80",
+    date: "September 5, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-002.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-003.jpeg` },
     ],
   },
-  "": {
+  "Sunrise": {
     scientificName: null,
     location: "Nags Head, North Carolina",
+    camera: "Nikon D80",
+    date: "September 5, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-002.jpeg` },
@@ -56,6 +68,8 @@ export const photoGroups = {
   "Crepe Myrtle": {
     scientificName: "Lagerstroemia indica",
     location: "Chesapeake, Virginia",
+    camera: "Nikon D80",
+    date: "June 16, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-001.jpeg` },
     ],
@@ -63,6 +77,8 @@ export const photoGroups = {
   "House Finch": {
     scientificName: "Haemorhous mexicanus",
     location: "Chesapeake, Virginia",
+    camera: "Nikon D80",
+    date: "June 16, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-002.jpeg` },
@@ -72,6 +88,8 @@ export const photoGroups = {
   "Common Blue Damselfly": {
     scientificName: "Enallagma cyathigerum",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 20, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
     ],
@@ -80,6 +98,8 @@ export const photoGroups = {
   "Orchard Orbweaver": {
     scientificName: "Leucauge venusta",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 20, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/orchard-orbweaver-001.jpeg` },
     ],
@@ -88,6 +108,8 @@ export const photoGroups = {
   "Southern Black Widow": {
     scientificName: "Latrodectus mactans",
     location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 7, 2026",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
     ],

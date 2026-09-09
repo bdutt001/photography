@@ -4,6 +4,8 @@ export const SlideshowCard = ({
   animalName,
   scientificName,
   location,
+  camera,
+  date,
   photos = [],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -61,10 +63,15 @@ export const SlideshowCard = ({
           </p>
         )}
       </div>
+        
 
-      <div className=''>
+      <div className='row--apart subtitle'>
+        
         {location && (
           <p className='location'>{location}</p>
+        )}
+        {date && (
+          <p className='date'>{date}</p>
         )}
       </div>
 
