@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 export const SlideshowCard = ({
   animalName,
   scientificName,
+  location,
   photos = [],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -28,31 +29,21 @@ export const SlideshowCard = ({
 
   return (
     <div className="masonry-item slideshow-card">
-      <img
-        src={currentPhoto.src}
-        alt={currentPhoto.alt || `${animalName} slideshow`}
-        loading="lazy"
-      />
-
-      {photos.length > 1 && (
-        <>
-          <button className="nav-btn prev" onClick={prevSlide}>
-            &#10094;
-          </button>
-
-          <button className="nav-btn next" onClick={nextSlide}>
-            &#10095;
-          </button>
-        </>
-      )}
-
-      <h4>{animalName}</h4>
-
-      <div className=''>
-        {scientificName && (
-          <p className="scientific-name">
-            <em>{scientificName}</em>
-          </p>
+      <div>
+        <img
+          src={currentPhoto.src}
+          alt={currentPhoto.alt || `${animalName} slideshow`}
+          loading="lazy"
+        />
+        {photos.length > 1 && (
+          <>
+            <button className="nav-btn prev" onClick={prevSlide}>
+              &#10094;
+            </button>
+            <button className="nav-btn next" onClick={nextSlide}>
+              &#10095;
+            </button>
+          </>
         )}
       </div>
 
@@ -61,6 +52,23 @@ export const SlideshowCard = ({
           {currentIndex + 1} / {photos.length}
         </p>
       )}
+
+      <div className='row--apart'>
+        <h4>{animalName}</h4>
+        {scientificName && (
+          <p className="scientific-name">
+            <em>{scientificName}</em>
+          </p>
+        )}
+      </div>
+
+      <div className=''>
+        {location && (
+          <p className='location'>{location}</p>
+        )}
+      </div>
+
+      
     </div>
   );
 };

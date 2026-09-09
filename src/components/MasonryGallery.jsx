@@ -9,7 +9,8 @@ export const MasonryGallery = ({ groups }) => {
         <SlideshowCard 
           key={animalName} 
           animalName={animalName}
-          scientificName={data.scientificName} 
+          scientificName={data.scientificName}
+          location={data.location}
           photos={data.photos} 
         />
       ))}

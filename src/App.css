@@ -15,11 +15,11 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 20; */
 
   display: flex;
   justify-content: space-between;
@@ -147,6 +147,15 @@ main {
   gap: 2rem;
   margin-top: 20px;
   padding-bottom: 1rem;
+}
+
+.row--apart {
+  display: flex;
+  flex-direction: row;
+
+  align-items: baseline;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .gallery img {

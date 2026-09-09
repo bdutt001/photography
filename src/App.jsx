@@ -46,8 +46,8 @@ function App() {
 
           <section id="about" className="about">
             <h1>About</h1>
-            <img src={Portrait} className="portrait"/>
-            <p>I am a hobbyist photographer based in Chesapeake, Virginia.</p>
+            {/* <img src={Portrait} className="portrait"/> */}
+            <p>I'm a hobbyist photographer based in Chesapeake, Virginia.</p>
           </section>
 
           <section id="contact" className="contact">
