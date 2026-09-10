@@ -1,0 +1,61 @@
+.animal-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.scientific-name {
+    font-size: larger;
+    font-style: italic;
+}
+
+.subtitle {
+  opacity: .8;
+}
+
+.slide-counter {
+  position: absolute;
+  top: 0%;
+  right: 2%;
+
+  background-color: var(--glass);
+  backdrop-filter: blur(4px);
+  border-radius: 999px;
+  padding: .5rem 1rem;
+
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 1;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--glass);
+  backdrop-filter: blur(4px);
+  color: white;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+.slideshow-card:hover .nav-btn {
+  opacity: 1;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.prev { left: 12px; }
+.next { right: 12px; }

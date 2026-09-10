@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./slideshow-card.css"
 
 export const SlideshowCard = ({
   animalName,
@@ -55,26 +56,32 @@ export const SlideshowCard = ({
         </p>
       )}
 
-      <div className='row--apart'>
-        <h4>{animalName}</h4>
-        {scientificName && (
-          <p className="scientific-name">
-            <em>{scientificName}</em>
-          </p>
-        )}
-      </div>
+      <div className='column'>
+        <div className='row--apart'>
+          <p className='animal-name'>{animalName}</p>
+          {scientificName && (
+            <p className="scientific-name">
+              <p>{scientificName}</p>
+            </p>
+          )}
+        </div>
         
-
-      <div className='row--apart subtitle'>
+        <div className='row--apart subtitle'>
         
-        {location && (
-          <p className='location'>{location}</p>
-        )}
-        {date && (
-          <p className='date'>{date}</p>
-        )}
+          {location && (
+            <p className='location'>{location}</p>
+          )}
+          {date && (
+            <p className='date'>{date}</p>
+          )}
+        </div>
+        
+        <div className='row--apart subtitle'>
+          {camera && (
+            <p className='camera'>{camera}</p>
+          )}
+        </div>
       </div>
-
       
     </div>
   );
