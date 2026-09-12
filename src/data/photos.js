@@ -9,22 +9,19 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-002.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-003.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-004.jpeg` }
     ],
   },
-
-  "Lake Lawson": {
-    scientificName: null,
+  "Common Blue Damselfly": {
+    scientificName: "Enallagma cyathigerum",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    date: "June 25, 2026",
-    url: null,
+    date: "June 20, 2026",
+    url: "https://en.wikipedia.org/wiki/Enallagma_cyathigerum",
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/forest-001.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/web-001.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/forest-002.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
     ],
   },
-
   "Eastern Gray Squirrel": {
     scientificName: "Sciurus carolinensis",
     location: "Norfolk, Virginia",
@@ -34,6 +31,17 @@ export const photoGroups = {
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
+    ],
+  },
+  "Crepe Myrtle": {
+    scientificName: "Lagerstroemia indica",
+    location: "Chesapeake, Virginia",
+    camera: "Nikon D80",
+    date: "June 16, 2026",
+    url: "https://en.wikipedia.org/wiki/Lagerstroemia_indica",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-002.jpeg` },
     ],
   },
   "Pond Slider": {
@@ -59,26 +67,44 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-003.jpeg` },
     ],
   },
-  "Sunrise": {
-    scientificName: null,
-    location: "Nags Head, North Carolina",
+  "Turkey Tail": {
+    scientificName: "Trametes versicolor",
+    location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    date: "September 5, 2026",
-    url: null,
+    date: "June 7, 2026",
+    url: "https://en.wikipedia.org/wiki/Trametes_versicolor",
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-001.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-002.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-003.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/turkey-tail-001.jpeg` },
     ],
   },
-  "Crepe Myrtle": {
-    scientificName: "Lagerstroemia indica",
-    location: "Chesapeake, Virginia",
+  "Orchard Orbweaver": {
+    scientificName: "Leucauge venusta",
+    location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    date: "June 16, 2026",
-    url: "https://en.wikipedia.org/wiki/Lagerstroemia_indica",
+    date: "June 20, 2026",
+    url: "https://en.wikipedia.org/wiki/Leucauge_venusta",
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/orchard-orbweaver-001.jpeg` },
+    ],
+  },
+  "Southern Black Widow": {
+    scientificName: "Latrodectus mactans",
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 7, 2026",
+    url: "https://en.wikipedia.org/wiki/Latrodectus_mactans",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
+    ],
+  },
+  "Eastern Harvestman": {
+    scientificName: "Leiobunum vittatum",
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    date: "June 7, 2026",
+    url: "https://en.wikipedia.org/wiki/Leiobunum_vittatum",
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/harvestman-001.jpeg` },
     ],
   },
   "House Finch": {
@@ -93,37 +119,28 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-003.jpeg` },
     ],
   },
-  "Common Blue Damselfly": {
-    scientificName: "Enallagma cyathigerum",
+  "Lake Lawson": {
+    scientificName: null,
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Enallagma_cyathigerum",
+    date: "June 25, 2026",
+    url: null,
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/forest-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/web-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/forest-002.jpeg` },
     ],
   },
-  
-  "Orchard Orbweaver": {
-    scientificName: "Leucauge venusta",
-    location: "Norfolk, Virginia",
+  "Sunrise": {
+    scientificName: null,
+    location: "Nags Head, North Carolina",
     camera: "Nikon D80",
-    date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Leucauge_venusta",
+    date: "September 5, 2026",
+    url: null,
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/orchard-orbweaver-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-002.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/landscape/sunrise-003.jpeg` },
     ],
   },
-
-  "Southern Black Widow": {
-    scientificName: "Latrodectus mactans",
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    date: "June 7, 2026",
-    url: "https://en.wikipedia.org/wiki/Latrodectus_mactans",
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
-    ],
-  },
-  
 };
