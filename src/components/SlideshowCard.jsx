@@ -7,6 +7,7 @@ export const SlideshowCard = ({
   location,
   camera,
   date,
+  url,
   photos = [],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -61,7 +62,7 @@ export const SlideshowCard = ({
           <p className='animal-name'>{animalName}</p>
           {scientificName && (
             <p className="scientific-name">
-              <p>{scientificName}</p>
+              <a href={url}>{scientificName}</a>
             </p>
           )}
         </div>

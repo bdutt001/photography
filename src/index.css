@@ -1,4 +1,6 @@
 :root {
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 1);
+
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -93,6 +95,28 @@ h2 {
 }
 p {
   margin: 0;
+}
+
+.button {
+  font-size: larger;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: .2rem solid var(--border);
+  border-radius: 999px;
+  border-color: transparent;
+
+  background-color: var(--glass);
+  backdrop-filter: blur(10px);
+  transition: all.3s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  border-color: white;
 }
 
 code,

@@ -15,27 +15,30 @@ body {
 }
 
 .navbar {
-  /* position: fixed;
+  position: relative;
   top: 0;
-  left: 0;
   right: 0;
-  z-index: 20; */
+  z-index: 20;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  padding: 30px 5%;
+  padding: 0 5%;
   color: white;
 }
 
 .navbar a {
-  font-size: ;
   margin-left: 30px;
   color: inherit;
   text-decoration: none;
   font-size: clamp(.5rem, 8vw, 1.5rem);
   font-weight: 500;
+}
+
+.navbar.glass {
+  backdrop-filter: blur(5px);
 }
 
 .hero {
@@ -71,8 +74,9 @@ body {
   height: 100vh;
 
   display: flex;
-  align-items: flex-end;
-  justify-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 
   padding: 0 8% 16%;
 
@@ -80,7 +84,11 @@ body {
 }
 
 .hero-text {
+  display: flex;
+  flex-direction: column;
   color: white;
+
+  align-items: flex-start;
 }
 
 .hero-text h2 {
@@ -106,6 +114,16 @@ main {
   backdrop-filter: blur(10px);
 }
 
+.header {
+  align-items: flex-start;
+}
+
+.title,
+.subtitle {
+  margin: 0;
+  padding: 0;
+}
+
 .portrait {
   max-height: 12rem;
   max-width: 12rem;
@@ -118,13 +136,18 @@ main {
 
 .work {
   position: relative;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
   padding-top: 2rem;
   color: white;
 }
 
-.about,
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
   position: relative;
   padding: 120px 8%;
   color: white;

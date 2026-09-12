@@ -13,6 +13,7 @@ export const MasonryGallery = ({ groups }) => {
           location={data.location}
           camera={data.camera}
           date={data.date}
+          url={data.url}
           photos={data.photos} 
         />
       ))}
