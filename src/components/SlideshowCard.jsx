@@ -62,7 +62,7 @@ export const SlideshowCard = ({
           <p className='animal-name'>{animalName}</p>
           {scientificName && (
             <p className="scientific-name">
-              <a href={url}>{scientificName}</a>
+              <a href={url} target='_blank'>{scientificName}</a>
             </p>
           )}
         </div>

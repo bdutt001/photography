@@ -30,7 +30,7 @@ export const photoGroups = {
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
     date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Eastern_gray_squirrel",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
@@ -41,7 +41,7 @@ export const photoGroups = {
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
     date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Pond_slider",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/turtle-002.jpeg` },
@@ -52,7 +52,7 @@ export const photoGroups = {
     location: "Nags Head, North Carolina",
     camera: "Nikon D80",
     date: "September 5, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Willet",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-002.jpeg` },
@@ -76,7 +76,7 @@ export const photoGroups = {
     location: "Chesapeake, Virginia",
     camera: "Nikon D80",
     date: "June 16, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Lagerstroemia_indica",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-001.jpeg` },
     ],
@@ -86,7 +86,7 @@ export const photoGroups = {
     location: "Chesapeake, Virginia",
     camera: "Nikon D80",
     date: "June 16, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/House_finch",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-001.jpeg` },
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-002.jpeg` },
@@ -98,7 +98,7 @@ export const photoGroups = {
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
     date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Enallagma_cyathigerum",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
     ],
@@ -109,7 +109,7 @@ export const photoGroups = {
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
     date: "June 20, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Leucauge_venusta",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/orchard-orbweaver-001.jpeg` },
     ],
@@ -120,7 +120,7 @@ export const photoGroups = {
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
     date: "June 7, 2026",
-    url: "https://en.wikipedia.org/wiki/Great_egret",
+    url: "https://en.wikipedia.org/wiki/Latrodectus_mactans",
     photos: [
       { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
     ],
