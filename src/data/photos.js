@@ -1,5 +1,6 @@
 export const photoGroups = {
   "Great Egret": {
+    category: "fauna",
     scientificName: "Ardea alba",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -13,6 +14,7 @@ export const photoGroups = {
     ],
   },
   "Common Blue Damselfly": {
+    category: "fauna",
     scientificName: "Enallagma cyathigerum",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -23,6 +25,7 @@ export const photoGroups = {
     ],
   },
   "Eastern Gray Squirrel": {
+    category: "fauna",
     scientificName: "Sciurus carolinensis",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -34,6 +37,7 @@ export const photoGroups = {
     ],
   },
   "Crepe Myrtle": {
+    category: "flora",
     scientificName: "Lagerstroemia indica",
     location: "Chesapeake, Virginia",
     camera: "Nikon D80",
@@ -45,6 +49,7 @@ export const photoGroups = {
     ],
   },
   "Pond Slider": {
+    category: "fauna",
     scientificName: "Trachemys scripta",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -56,6 +61,7 @@ export const photoGroups = {
     ],
   },
   "Willet": {
+    category: "fauna",
     scientificName: "Tringa semipalmata",
     location: "Nags Head, North Carolina",
     camera: "Nikon D80",
@@ -68,6 +74,7 @@ export const photoGroups = {
     ],
   },
   "Turkey Tail": {
+    category: "fungi",
     scientificName: "Trametes versicolor",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -78,6 +85,7 @@ export const photoGroups = {
     ],
   },
   "Orchard Orbweaver": {
+    category: "fauna",
     scientificName: "Leucauge venusta",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -88,6 +96,7 @@ export const photoGroups = {
     ],
   },
   "Southern Black Widow": {
+    category: "fauna",
     scientificName: "Latrodectus mactans",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -98,6 +107,7 @@ export const photoGroups = {
     ],
   },
   "Eastern Harvestman": {
+    category: "fauna",
     scientificName: "Leiobunum vittatum",
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -108,6 +118,7 @@ export const photoGroups = {
     ],
   },
   "House Finch": {
+    category: "fauna",
     scientificName: "Haemorhous mexicanus",
     location: "Chesapeake, Virginia",
     camera: "Nikon D80",
@@ -120,6 +131,7 @@ export const photoGroups = {
     ],
   },
   "Lake Lawson": {
+    category: "landscape",
     scientificName: null,
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
@@ -132,6 +144,7 @@ export const photoGroups = {
     ],
   },
   "Sunrise": {
+    category: "landscape",
     scientificName: null,
     location: "Nags Head, North Carolina",
     camera: "Nikon D80",

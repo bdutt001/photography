@@ -15,6 +15,18 @@
   background-color: var(--glass);
 }
 
+.gallery-filters {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.active {
+  background-color: var(--accent);
+  color: black;
+}
+
 .masonry-item img {
   width: 100%;
   height: auto;
