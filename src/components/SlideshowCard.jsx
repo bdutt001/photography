@@ -22,7 +22,7 @@ export const SlideshowCard = ({
     setCurrentIndex(
       (prevIndex) => (prevIndex - 1 + photos.length) % photos.length
     );
-  };
+  };  
 
   // Prevent crashes if there are no photos
   if (photos.length === 0) {

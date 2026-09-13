@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { GroupedMasonry } from './components/GroupedMasonry';
+// import { GroupedMasonry } from './components/GroupedMasonry';
 import { MasonryGallery } from './components/MasonryGallery';
 
 import { photoGroups } from './data/photos';
