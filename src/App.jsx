@@ -31,7 +31,8 @@ function App() {
         <div className='glass'>
           <section id="work" className="work">
             <h1>Gallery</h1>
-            
+            <p className='paragraph'>Filter for wildlife, plants, landscapes, etc.</p>
+          
             <section id='flora' className='category'>
               <MasonryGallery groups={photoGroups} />
             </section>
@@ -39,9 +40,10 @@ function App() {
 
           <section id="contact" className="contact">
             <h1>Contact</h1>
-            <p></p>
+            <p className='paragraph'>Looking for portraits? Contact <a href="mailto:bendutton9@gmail.com">bendutton9@gmail.com</a> for booking and pricing.</p>
             <a className='button' href="mailto:bendutton9@gmail.com">Email</a>
           </section>
+          <p className='copyright'>© 2026 Benjamin Dutton. All rights reserved.</p>
         </div>
       </main>
     </div>

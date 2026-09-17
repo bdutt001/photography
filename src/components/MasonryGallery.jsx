@@ -5,7 +5,7 @@ import './masonry-gallery.css';
 export const MasonryGallery = ({ groups }) => {
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const filters = ['flora', 'fauna', 'fungi', 'landscape'];
+  const filters = ['fauna', 'flora', 'fungi', 'landscape'];
 
   const toggleFilter = (filter) => {
     setSelectedFilters((current) =>

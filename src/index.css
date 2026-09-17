@@ -1,9 +1,14 @@
 :root {
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #f9c474;
+  --text: #9ca3af;
+  --text-h: #f3f4f6;
+  --bg: #16171d;
+  --border: #2e303a;
+  --accent: #f99a74;
+  --accent-bg: rgba(192, 132, 252, 0.15);
+  --accent-border: rgba(192, 132, 252, 0.5);
+  --social-bg: rgba(47, 48, 58, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   --glass: rgba(0, 0, 0, 0.3);
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
@@ -30,7 +35,7 @@
     --text-h: #f3f4f6;
     --bg: #16171d;
     --border: #2e303a;
-    --accent: #f9c474;
+    --accent: #f99a74;
     --accent-bg: rgba(192, 132, 252, 0.15);
     --accent-border: rgba(192, 132, 252, 0.5);
     --social-bg: rgba(47, 48, 58, 0.5);
@@ -88,6 +93,10 @@ p {
   margin: 0;
 }
 
+.paragraph {
+  padding-bottom: 1rem;
+}
+
 .button {
   font-size: larger;
   font-weight: 500;
@@ -108,4 +117,8 @@ p {
 .button:hover {
   transform: scale(1.1);
   border-color: var(--accent);
+}
+
+a {
+  color: var(--accent);
 }

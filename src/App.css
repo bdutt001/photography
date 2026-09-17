@@ -216,6 +216,12 @@ main {
   min-height: 50vh;
 }
 
+.copyright {
+  color: var(--text);
+  padding: 1rem 0rem;
+  justify-items: flex-start;
+}
+
 @media (max-width: 700px) {
   .navbar {
     padding: 20px;
