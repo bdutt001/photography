@@ -46,6 +46,7 @@ export const MasonryGallery = ({ groups }) => {
       <div className="masonry-container">
         {filteredGroups.map(([key, data]) => (
           <SlideshowCard
+            key={key}
             animalName={data.animalName}
             scientificName={data.scientificName}
             location={data.location}
