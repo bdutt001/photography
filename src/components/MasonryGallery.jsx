@@ -18,7 +18,9 @@ export const MasonryGallery = ({ groups }) => {
   const filteredGroups = Object.entries(groups).filter(
     ([, data]) =>
       selectedFilters.length === 0 ||
-      selectedFilters.includes(data.category)
+      data.category?.some((category) =>
+        selectedFilters.includes(category)
+      )
   );
 
   return (
@@ -31,7 +33,7 @@ export const MasonryGallery = ({ groups }) => {
             <button
               key={filter}
               type="button"
-              className= {isSelected ? 'button active' : 'button'}
+              className={isSelected ? 'button active' : 'button'}
               onClick={() => toggleFilter(filter)}
               aria-pressed={isSelected}
             >
@@ -42,14 +44,12 @@ export const MasonryGallery = ({ groups }) => {
       </div>
 
       <div className="masonry-container">
-        {filteredGroups.map(([animalName, data]) => (
+        {filteredGroups.map(([key, data]) => (
           <SlideshowCard
-            key={animalName}
-            animalName={animalName}
+            animalName={data.animalName}
             scientificName={data.scientificName}
             location={data.location}
             camera={data.camera}
-            date={data.date}
             url={data.url}
             photos={data.photos}
           />

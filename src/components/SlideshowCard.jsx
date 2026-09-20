@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import "./slideshow-card.css"
 
 export const SlideshowCard = ({
-  animalName,
-  scientificName,
+  animalName = [],
+  scientificName = [],
   location,
   camera,
-  date,
-  url,
+  url = [],
   photos = [],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,26 +57,33 @@ export const SlideshowCard = ({
       )}
 
       <div className='column'>
-        <div className='row--apart'>
-          <p className='animal-name'>{animalName}</p>
-          {scientificName && (
-            <p className="scientific-name">
-              <a href={url} target='_blank'>{scientificName}</a>
-            </p>
-          )}
-        </div>
+          {animalName?.map((name, index) => (
+            <div className="row--apart" key={name}>
+              <p className="animal-name">{name}</p>
+
+              {scientificName?.[index] && (
+                <p className="scientific-name">
+                  {url?.[index] ? (
+                    <a
+                      href={url[index]}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {scientificName[index]}
+                    </a>
+                  ) : (
+                    scientificName[index]
+                  )}
+                </p>
+              )}
+            </div>
+          ))}
         
         <div className='row--apart subtitle'>
         
           {location && (
             <p className='location'>{location}</p>
           )}
-          {date && (
-            <p className='date'>{date}</p>
-          )}
-        </div>
-        
-        <div className='row--apart subtitle'>
           {camera && (
             <p className='camera'>{camera}</p>
           )}
