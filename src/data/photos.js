@@ -13,29 +13,48 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/egret-004.jpeg` }
     ],
   },
-  "Common Blue Damselfly": {
-    animalName: ["Common Blue Damselfly"],
-    category: ["fauna",],
-    scientificName: ["Enallagma cyathigerum",],
+  "Cloudless Sulphur Butterfly": {
+    animalName: ["Coral Honeysuckle", "Cloudless Sulphur Butterfly"],
+    category: [
+      "flora",
+      "fauna"
+    ],
+    scientificName: [
+      "Lonicera sempervirens",
+      "Phoebis sennae",
+    ],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["https://en.wikipedia.org/wiki/Enallagma_cyathigerum",],
+    url: ["https://en.wikipedia.org/wiki/Lonicera_sempervirens","https://en.wikipedia.org/wiki/Phoebis_sennae"],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/cloudless-sulphur-butterfly-001.JPG` },
     ],
   },
-  "Eastern Gray Squirrel": {
-    animalName: ["Eastern Gray Squirrel"],
-    category: ["fauna",],
-    scientificName: ["Sciurus carolinensis",],
+  
+  "Desert Diamond": {
+    animalName: ["Desert Diamond"],
+    category: ["flora",],
+    scientificName: ["Agave Potatorum",],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["https://en.wikipedia.org/wiki/Eastern_gray_squirrel",],
+    url: ["",],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-001.jpeg` },
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/desert-diamond-001.JPG` },
     ],
   },
+  "Eastern Harvestman": {
+    animalName: ["Eastern Harvestman"],
+    category: ["fauna",],
+    scientificName: ["Leiobunum vittatum",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Leiobunum_vittatum",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/harvestman-001.jpeg` },
+    ],
+  },
+  
+  
   "Crepe Myrtle": {
     animalName: ["Crepe Myrtle"],
     category: ["flora",],
@@ -48,99 +67,20 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/flora/crepe-myrtle-002.jpeg` },
     ],
   },
-  "Bunny Ears Cactus": {
-    animalName: ["Bunny Ears Cactus"],
-    category: ["flora",],
-    scientificName: ["Opuntia microdasys",],
+  
+  
+  
+  
+  "Eastern Gray Squirrel": {
+    animalName: ["Eastern Gray Squirrel"],
+    category: ["fauna",],
+    scientificName: ["Sciurus carolinensis",],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["",],
+    url: ["https://en.wikipedia.org/wiki/Eastern_gray_squirrel",],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/bunny-ears-cactus-001.JPG` },
-    ],
-  },
-  "Desert Diamond": {
-    animalName: ["Desert Diamond"],
-    category: ["flora",],
-    scientificName: ["Agave Potatorum",],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/desert-diamond-001.JPG` },
-    ],
-  },
-  "Chenille Plant": {
-    animalName: ["Chenille Plant"],
-    category: ["flora",],
-    scientificName: ["Acalypha hispida",],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/chenille-001.JPG` },
-      { src: `${import.meta.env.BASE_URL}/photos/flora/chenille-002.JPG` },
-    ],
-  },
-  "Chin Cactus": {
-    animalName: ["Chin Cactus"],
-    category: ["flora",],
-    scientificName: ["Gymnocalycium stenopleurum",],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/chin-cactus-001.JPG` },
-    ],
-  },
-  "Earth Star": {
-    animalName: ["Earth star"],
-    category: ["flora",],
-    scientificName: ["Cryptanthus bivittatus",],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/earth-star-001.JPG` },
-    ],
-  },
-  "Hawaiian Ti Plant": {
-    animalName: ["Hawaiian Ti Plant"],
-    category: ["flora",],
-    scientificName: ["Cordyline fruticosa",],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/ti-plant-001.JPG` },
-    ],
-  },
-  "Sulphur Cosmos": {
-    animalName: ["Sulphur Cosmos", "Bumble Bee"],
-    category: ["flora", "fauna"],
-    scientificName: ["Cosmos sulphureus", "Bombus impatiens"],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/sulphur-cosmos-001.JPG` },
-    ],
-  },
- "Cloudless Sulphur Butterfly": {
-    animalName: ["Coral Honeysuckle", "Cloudless Sulphur Butterfly"],
-    category: [
-      "flora",
-      "fauna"
-    ],
-    scientificName: [
-      "Lonicera sempervirens",
-      "Phoebis sennae",
-    ],
-    location: "Norfolk, Virginia",
-    camera: "Nikon D80",
-    url: ["",],
-    photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/cloudless-sulphur-butterfly-001.JPG` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/squirrel-002.jpeg` },
     ],
   },
   "Pond Slider": {
@@ -168,15 +108,28 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/willet-003.jpeg` },
     ],
   },
-  "Turkey Tail": {
-    animalName: ["Turkey Tail"],
-    category: ["fungi",],
-    scientificName: ["Trametes versicolor",],
+  
+  "Common Blue Damselfly": {
+    animalName: ["Common Blue Damselfly"],
+    category: ["fauna",],
+    scientificName: ["Enallagma cyathigerum",],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["https://en.wikipedia.org/wiki/Trametes_versicolor",],
+    url: ["https://en.wikipedia.org/wiki/Enallagma_cyathigerum",],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/flora/turkey-tail-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/damselfly-001.jpeg` },
+    ],
+  },
+  
+  "Hawaiian Ti Plant": {
+    animalName: ["Hawaiian Ti Plant"],
+    category: ["flora",],
+    scientificName: ["Cordyline fruticosa",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Cordyline_fruticosa",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/ti-plant-001.JPG` },
     ],
   },
   "Orchard Orbweaver": {
@@ -190,28 +143,45 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/orchard-orbweaver-001.jpeg` },
     ],
   },
-  "Southern Black Widow": {
-    animalName: ["Southern Black Widow"],
-    category: ["fauna",],
-    scientificName: ["Latrodectus mactans",],
+
+  "Chin Cactus": {
+    animalName: ["Chin Cactus"],
+    category: ["flora",],
+    scientificName: ["Gymnocalycium stenopleurum",],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["https://en.wikipedia.org/wiki/Latrodectus_mactans",],
+    url: ["https://en.wikipedia.org/wiki/Gymnocalycium_stenopleurum",],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/chin-cactus-001.JPG` },
     ],
   },
-  "Eastern Harvestman": {
-    animalName: ["Eastern Harvestman"],
-    category: ["fauna",],
-    scientificName: ["Leiobunum vittatum",],
+  "Turkey Tail": {
+    animalName: ["Turkey Tail"],
+    category: ["fungi",],
+    scientificName: ["Trametes versicolor",],
     location: "Norfolk, Virginia",
     camera: "Nikon D80",
-    url: ["https://en.wikipedia.org/wiki/Leiobunum_vittatum",],
+    url: ["https://en.wikipedia.org/wiki/Trametes_versicolor",],
     photos: [
-      { src: `${import.meta.env.BASE_URL}/photos/fauna/harvestman-001.jpeg` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/turkey-tail-001.jpeg` },
     ],
   },
+  
+  "Bunny Ears Cactus": {
+    animalName: ["Bunny Ears Cactus"],
+    category: ["flora",],
+    scientificName: ["Opuntia microdasys",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Opuntia_microdasys",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/bunny-ears-cactus-001.JPG` },
+    ],
+  },
+  
+  
+  
+  
   "House Finch": {
     animalName: ["House Finch"],
     category: ["fauna",],
@@ -225,6 +195,53 @@ export const photoGroups = {
       { src: `${import.meta.env.BASE_URL}/photos/fauna/finch-003.jpeg` },
     ],
   },
+  "Sulphur Cosmos": {
+    animalName: ["Sulphur Cosmos", "Bumble Bee"],
+    category: ["flora", "fauna"],
+    scientificName: ["Cosmos sulphureus", "Bombus impatiens"],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Cosmos_sulphureus","https://en.wikipedia.org/wiki/Bombus_impatiens"],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/sulphur-cosmos-001.JPG` },
+    ],
+  },
+  "Earth Star": {
+    animalName: ["Earth star"],
+    category: ["flora",],
+    scientificName: ["Cryptanthus bivittatus",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Cryptanthus_bivittatus",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/earth-star-001.JPG` },
+    ],
+  },
+  
+  "Southern Black Widow": {
+    animalName: ["Southern Black Widow"],
+    category: ["fauna",],
+    scientificName: ["Latrodectus mactans",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Latrodectus_mactans",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/fauna/black-widow-001.jpeg` },
+    ],
+  },
+  "Chenille Plant": {
+    animalName: ["Chenille Plant"],
+    category: ["flora",],
+    scientificName: ["Acalypha hispida",],
+    location: "Norfolk, Virginia",
+    camera: "Nikon D80",
+    url: ["https://en.wikipedia.org/wiki/Acalypha_hispida",],
+    photos: [
+      { src: `${import.meta.env.BASE_URL}/photos/flora/chenille-001.JPG` },
+      { src: `${import.meta.env.BASE_URL}/photos/flora/chenille-002.JPG` },
+    ],
+  },
+  
   "Lake Lawson": {
     animalName: ["Lake Lawson"],
     category: ["landscape",],
